@@ -22,3 +22,11 @@ body {
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+main h1 {
+    color: #b11b19;
+}
+
+footer {
+    background-color: #8bc234;
+}
