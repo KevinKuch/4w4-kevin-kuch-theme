@@ -385,6 +385,7 @@ p {
   font-size: 1rem;
   font-weight: bold;
   border-bottom: 1px solid #fff;
+  padding-top: 5px;
   padding-bottom: 5px;
 }
 .menu-item a {
