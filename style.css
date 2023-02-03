@@ -369,11 +369,26 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-a {
-  color: #888;
+.menu-entete-container {
+  background-color: rgb(52, 50, 50);
+  padding: 2em;
 }
-a:visited {
-  color: rgb(56, 44, 186);
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-item {
+  list-style-type: none;
+  color: #fff;
+}
+.menu-item a {
+  text-decoration: none;
+}
+
+a {
+  color: rgb(239, 4, 4);
 }
 a:hover {
   color: #555;
@@ -384,6 +399,10 @@ a:hover {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: rgb(98, 24, 24);
+  color: #fff;
+  margin: 2em;
+  padding: 2em;
 }
 
 .site_footer section {
