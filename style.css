@@ -382,6 +382,7 @@ p {
 .menu-item {
   list-style-type: none;
   color: #fff;
+  font-size: 1rem;
 }
 .menu-item a {
   text-decoration: none;
@@ -391,7 +392,7 @@ a {
   color: rgb(239, 4, 4);
 }
 a:hover {
-  color: #555;
+  color: rgb(230, 228, 228);
 }
 
 /* --------------------------------------------- composant */
@@ -401,7 +402,6 @@ a:hover {
   flex-wrap: wrap;
   background-color: rgb(98, 24, 24);
   color: #fff;
-  margin: 2em;
   padding: 2em;
 }
 
