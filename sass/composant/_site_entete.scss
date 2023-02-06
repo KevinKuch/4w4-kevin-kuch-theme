@@ -1,0 +1,36 @@
+.site__header {
+    border: 1px solid red;
+}
+
+.site__header__logo{
+    display: flex;
+    justify-content:space-around;
+    border: 1px solid blue;
+}
+
+.menu-entete-container { // nav
+    padding: 2em;
+    
+  }
+  
+  .menu { // ul
+    display: flex;
+    justify-content: flex-end;
+
+    .menu-item { // li
+        list-style-type: none;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bold;
+        border: 1px solid;
+        background-color: #fff;
+        border-radius: 2em;
+        padding: 5px 20px;
+      
+      
+        & a {
+          text-decoration: none;
+        }
+      }
+    
+  }
