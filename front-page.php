@@ -14,11 +14,16 @@
                 <a href="<?php echo get_permalink();?>"><?php echo get_the_title(); ?></a>
             </h1>
 
+            <?php // the_content() // affiche le contenu complet de l'article?>
+            <?php the_excerpt(); // affiche le résumé de l'article?> 
+            <?= wp_trim_words(get_the_excerpt(), 10, " &#10148") ?>
+
+
+
+
             <hr>
     <?php    endwhile;
     endif;
-     
-    
     ?>
 </main>
 <?php get_footer(); ?>
