@@ -370,6 +370,7 @@ p {
 }
 
 .titre-web {
+  color: rgb(239, 4, 4);
   text-align: center;
 }
 
@@ -380,9 +381,12 @@ a:hover {
   color: rgb(10, 10, 10);
 }
 
-main {
-  margin-left: 2rem;
-  margin-right: 2rem;
+.single-page {
+  padding-left: 2em;
+  padding-right: 2em;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(84, 23, 68) 22%, rgb(182, 50, 106) 70%, rgb(0, 212, 255) 100%);
+  color: #fff;
 }
 
 /* --------------------------------------------- composant */
@@ -397,7 +401,9 @@ main {
 
 .site_footer section {
   border: 1px solid #aaa;
+  border-radius: 10px;
   flex: 1 1 200px;
+  padding: 1rem;
 }
 
 .site__header__logo {
@@ -429,4 +435,10 @@ main {
   border-top: 4px solid rgb(239, 4, 4);
   border-bottom: 4px solid rgb(239, 4, 4);
   padding: 6px 0;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.single-page {
+  background-color: aqua;
+}
+
+/* --------------------------------------------- variable *//*# sourceMappingURL=style.css.map */
