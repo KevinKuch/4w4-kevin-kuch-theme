@@ -12,5 +12,5 @@
 
 
 ### Référence 
-- eddytuto.ca/
+- https://eddytuto.ca/
 - https://developer.wordpress.org/themes/
