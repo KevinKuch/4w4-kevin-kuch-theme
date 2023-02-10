@@ -369,11 +369,20 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+.titre-web {
+  text-align: center;
+}
+
 a {
   color: rgb(239, 4, 4);
 }
 a:hover {
   color: rgb(230, 228, 228);
+}
+
+main {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 /* --------------------------------------------- composant */
