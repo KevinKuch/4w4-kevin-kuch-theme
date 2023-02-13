@@ -384,8 +384,6 @@ a:hover {
 main {
   padding-left: 2em;
   padding-right: 2em;
-  background: rgb(144, 143, 166);
-  background: linear-gradient(90deg, rgb(144, 143, 166) 0%, rgb(201, 120, 42) 35%, rgb(164, 180, 17) 62%, rgb(223, 177, 196) 100%, rgb(0, 212, 255) 100%);
 }
 
 /* --------------------------------------------- composant */
@@ -442,6 +440,17 @@ main {
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(84, 23, 68) 22%, rgb(182, 50, 106) 70%, rgb(0, 212, 255) 100%);
   color: #fff;
+}
+
+.blocFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.blocFlex article {
+  flex: 1 1 200px;
+  border: 1px solid black;
+  padding: 2em;
 }
 
 /* --------------------------------------------- variable *//*# sourceMappingURL=style.css.map */
