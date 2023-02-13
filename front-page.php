@@ -7,6 +7,9 @@
 <?php get_header(); ?>
 <main>
     <h3>front-page.php</h3>
+    <div>
+        <img src="./medias/patternpad.png" alt="test">
+    </div>
         <section class="blocFlex">
             <?php 
                 if(have_posts()) : 
