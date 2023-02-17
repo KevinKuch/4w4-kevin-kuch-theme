@@ -1,12 +1,12 @@
 <?php 
 /**
- * Modèle par défaut
+ * Modèle category par défaut
  * 
  */
 ?>
 <?php get_header(); ?>
 <main>
-    <h3>front-page.php</h3>
+    <h3>category.php</h3>
     <div>
         <img src="./medias/patternpad.png" alt="test">
     </div>
@@ -20,8 +20,7 @@
                     </h1>
 
                     <?php // the_content() // affiche le contenu complet de l'article?>
-                    <!-- <?php the_excerpt(); // affiche le résumé de l'article?>  -->
-                    <p><?php if(is_category("cours")) echo "cours"; ?></p>
+                    <?php the_excerpt(); // affiche le résumé de l'article?> 
                     <p><?= wp_trim_words(get_the_excerpt(), 10, " &#10148") ?></p>
 
                     <hr>
