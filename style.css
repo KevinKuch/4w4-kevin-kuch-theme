@@ -378,6 +378,35 @@ p {
   text-align: center;
 }
 
+.titre-web-content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.titre-web {
+  text-align: center;
+  animation: move 1.2s ease-in infinite;
+  letter-spacing: 0.4rem;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  40% {
+    transform: translate(-12px, -12px);
+  }
+  50% {
+    transform: translate(-12px, -12px);
+  }
+  60% {
+    transform: translate(-12px, -12px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
 a {
   color: #e0000b;
   text-decoration: none;
