@@ -320,6 +320,10 @@ template {
   display: none;
 }
 
+html {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 /* --------------------------------------------- base */
 h1 {
   font-size: clamp(0.75rem, 0.5625rem + 1.5vw, 2.25rem);
@@ -375,11 +379,15 @@ p {
 }
 
 a {
-  color: #fd5c63;
+  color: #e0000b;
   text-decoration: none;
 }
 a:hover {
   color: rgb(10, 10, 10);
+}
+
+body {
+  background-image: url("medias/patternpad.png");
 }
 
 main {
@@ -438,9 +446,8 @@ main {
 .single-page {
   padding-left: 2em;
   padding-right: 2em;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(84, 23, 68) 22%, rgb(182, 50, 106) 70%, rgb(0, 212, 255) 100%);
-  color: #fff;
+  background-image: url("medias/patternpad.png");
+  color: #000;
 }
 
 .blocFlex {
@@ -454,6 +461,8 @@ main {
   border-radius: 10%;
   padding: 2em;
   margin: 1em;
+  background-color: #fff;
+  background-image: url("medias/patternpad.png");
 }
 
 /* --------------------------------------------- variable *//*# sourceMappingURL=style.css.map */

@@ -17,5 +17,8 @@
     )) ?>
     </section>
     <h1><a href="<?= bloginfo('url') ?>"><?= bloginfo('name') ?></a></h1>
-    <h2 class="titre-web"><?= bloginfo('description') ?></h2>
+    <div class="titre-web-content">
+        <h2 class="titre-web">Création d'interface et Développement Web</h2>
+    </div>
+    <!-- bloginfo('description')  -->
    </header>
