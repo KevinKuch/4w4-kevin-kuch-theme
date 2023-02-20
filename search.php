@@ -13,7 +13,7 @@
             while(have_posts()) : the_post();
             the_title('<h1>', '</h1>');
             ?>
-            <?= wp_trim_words(get_the_excerpt(), 50, " [...] "); ?>
+            <?= wp_trim_words(get_the_excerpt(), 50, "[...]"); ?>
             <hr>
     <?php    endwhile;
     endif;
