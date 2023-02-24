@@ -448,6 +448,10 @@ main {
   background-color: #c8e6d8;
 }
 
+.custom-logo-link {
+  padding-left: 1rem;
+}
+
 .logoMenu {
   display: flex;
   justify-content: flex-start;
@@ -496,6 +500,11 @@ main {
   padding: 2em;
   margin: 1em;
   background-color: #c8e6d8;
+  box-shadow: 10px 10px 5px lightblue;
+  transition: transform 0.2s;
+}
+.blocFlex article:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 768px) {
