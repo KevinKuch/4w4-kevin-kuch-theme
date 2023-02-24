@@ -21,7 +21,7 @@
     </section>
     <h1><a href="<?= bloginfo('url') ?>"><?= bloginfo('name') ?></a></h1>
     <div class="titre-web-content">
-        <h2 class="titre-web">Création d'interface et Développement Web</h2>
+        <h1 class="titre-web">Création d'interface et Développement Web</h1>
     </div>
     <!-- bloginfo('description')  -->
    </header>

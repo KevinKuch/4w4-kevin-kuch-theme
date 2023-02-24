@@ -1,6 +1,6 @@
 .site_footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     background-color: rgb(98, 24, 24);
     color: #fff;
@@ -11,6 +11,6 @@
     border: 1px solid #aaa;
     border-radius: 10px;
     flex: 1 1 200px;
-    padding: 1rem;
+    padding: 2rem;
     
 }

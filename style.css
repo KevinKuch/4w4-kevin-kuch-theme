@@ -330,7 +330,7 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(0.625rem, -0.3125rem + 3vw, 2.5rem);
+  font-size: clamp(0.625rem, 0.587rem + 0.7609vw, 1.5rem);
 }
 
 h3 {
@@ -427,7 +427,7 @@ main {
 /* --------------------------------------------- composant */
 .site_footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   background-color: rgb(98, 24, 24);
   color: #fff;
@@ -438,13 +438,14 @@ main {
   border: 1px solid #aaa;
   border-radius: 10px;
   flex: 1 1 200px;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .site__header__logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #c8e6d8;
 }
 
 .logoMenu {
@@ -481,7 +482,6 @@ main {
 .single-page {
   padding-left: 2em;
   padding-right: 2em;
-  background-image: url("medias/patternpad.png");
   color: #000;
 }
 
@@ -493,11 +493,9 @@ main {
 .blocFlex article {
   flex: 1 1 200px;
   border: 1px solid black;
-  border-radius: 10%;
   padding: 2em;
   margin: 1em;
-  background-color: #fff;
-  background-image: url("medias/patternpad.png");
+  background-color: #c8e6d8;
 }
 
 /* --------------------------------------------- variable *//*# sourceMappingURL=style.css.map */
