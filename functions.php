@@ -19,17 +19,17 @@ function enregistrement_nav_menu(){
         'footer'  => 'Menu pied de page'
     ) );
 }
-add_action( 'after_setup_theme', 'enregistrement_nav_menu', 0 );         
+add_action( 'after_setup_theme', 'enregistrement_nav_menu', 0 );     
 
-/* ----------------------------------- add_theme_support() */
-add_theme_support('title-tag');
-add_theme_support('custom-logo',
-    array(
-        'height' => 150,
-        'width' => 150,
-    )
-);
-add_theme_support('post-thumbnails');
+/*----------------------------------------- add_theme_support() */
+add_theme_support( 'title-tag' );
+add_theme_support( 'custom-logo',
+                    array(
+                        'height' => 150,
+                        'width'  => 150,
+) );
+add_theme_support( 'post-thumbnails' );
+
 
 /**
  * Modifie la requete principale de Wordpress avant qu'elle soit exécuté
@@ -39,7 +39,9 @@ add_theme_support('post-thumbnails');
  * @param WP_query  $query la requête principal de WP
  */
 function cidweb_modifie_requete_principal( $query ) {
-    if ( $query->is_home() && $query->is_main_query() && ! is_admin() ) {
+    if (    $query->is_home()
+            && $query->is_main_query()
+            && ! is_admin() ) {
       $query->set( 'category_name', '4w4' );
       $query->set( 'orderby', 'title' );
       $query->set( 'order', 'ASC' );
