@@ -498,4 +498,15 @@ main {
   background-color: #c8e6d8;
 }
 
+@media screen and (max-width: 768px) {
+  .menu-entete-container {
+    display: none;
+  }
+  .recherche {
+    display: none;
+  }
+  .logoMenu {
+    margin: 0 auto;
+  }
+}
 /* --------------------------------------------- variable *//*# sourceMappingURL=style.css.map */
