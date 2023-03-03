@@ -23,6 +23,19 @@
 .site__aside {
   grid-area: aside;
   background-color: #fff;
+  
+  h3 {
+    text-align: center;
+  }
+
+  .menu-item {
+    list-style-type: none;
+    padding: 1.5rem;
+    
+    a {
+      text-decoration: none;
+    }
+  }
  
 }
 
