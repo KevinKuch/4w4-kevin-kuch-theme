@@ -26,15 +26,19 @@
   
   h3 {
     text-align: center;
+    color: rgb(133, 190, 233);
   }
 
   .menu-item {
+    text-align: center;
     list-style-type: none;
     padding: 1rem;
     margin: 1rem;
-    border: 1px solid #000;
+    border-radius: 1rem;
+    background-color: rgb(133, 190, 233);
     
     a {
+      color: #fff;
       text-decoration: none;
     }
   }
