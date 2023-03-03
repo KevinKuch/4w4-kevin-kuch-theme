@@ -445,19 +445,15 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #c8e6d8;
 }
 
-.custom-logo-link {
-  padding-left: 1rem;
-}
-
-.logoMenu {
+.logomenu {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
+/* -------------------------------------------------- menu-enetete */
 .menu-entete-container .menu {
   display: flex;
   list-style-type: none;

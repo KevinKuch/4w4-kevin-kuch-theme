@@ -6,8 +6,8 @@
 ?>
 <?php get_header(); ?>
 <main>
-    <code>front-page.php</code>
-    <section class="blocFlex">
+    <h3>front-page.php</h3>
+    <section class="blocflex">
     <?php
         if (have_posts()): 
             while (have_posts()) : the_post(); ?>
