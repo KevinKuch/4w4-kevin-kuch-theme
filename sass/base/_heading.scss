@@ -44,20 +44,12 @@ h1 {
 
 
 .titre-web {
-  color: rgb(239, 4, 4);
-  text-align: center;
-}
-
-.titre-web-content {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-
-.titre-web {
   text-align: center;
   animation: move 1.2s ease-in infinite;
   letter-spacing: 0.4rem;
+  margin-bottom: 1rem;
+
+  color: #fff;
 }
 
 @keyframes move {
