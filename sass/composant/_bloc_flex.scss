@@ -1,22 +1,41 @@
+
 .blocflex {
-    display: flex;
+    display : flex;
     justify-content: space-between;
     flex-wrap: wrap;
 
     article {
-        flex: 1 1 200px;
-        border: 1px solid black;
-        padding: 2em;
-        margin: 1em;
-
-        background-color: #c8e6d8;
-        box-shadow: 10px 10px 5px lightblue;
-        transition: transform .2s;
-
-        &:hover {
-            transform: scale(1.1);
-        }
-
-
+        flex: 1 0 200px;
+        border : 1px solid #aaa;
+        padding : 10px;
     }
+}
+
+/*
+.blocflex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    // Cette déclaration sera meilleur quand min() sera mieux supporté
+    // grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
+    gap: 2rem;
+    margin: 2rem;
+  }
+*/
+
+.blocflex__article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #aaa;
+  padding: 1rem;
+  h3,h5,h6,p {
+    margin:0;
+    padding:0;
+  }
+}
+
+.blocflex__galerie {
+   flex: 1 0 100%;
 }
