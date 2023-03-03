@@ -1,13 +1,13 @@
-.site_footer {
+.site__footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: rgb(98, 24, 24);
-    color: #fff;
-    padding: 2em;
+    color: rgb(0, 0, 0);
+    padding: 6em;
 }
 
-.site_footer section {
+.site__footer section {
     border: 1px solid #aaa;
     border-radius: 10px;
     flex: 1 1 200px;
