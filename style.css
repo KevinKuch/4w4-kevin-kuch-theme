@@ -409,14 +409,15 @@ main {
   justify-content: space-around;
   flex-wrap: wrap;
   color: rgb(0, 0, 0);
-  padding: 6em;
+  padding: 3rem;
+  margin-top: 2rem;
 }
 
 .site__footer section {
   border: 1px solid #aaa;
   border-radius: 10px;
   flex: 1 1 200px;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .site__header__logo {
@@ -491,12 +492,17 @@ main {
   align-items: center;
   text-align: center;
   border: 1px solid #aaa;
+  background-color: rgb(133, 190, 233);
   padding: 1rem;
   margin: 1rem;
 }
 .blocflex__article h3, .blocflex__article h5, .blocflex__article h6, .blocflex__article p {
   margin: 0;
   padding: 0;
+}
+.blocflex__article a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .blocflex__galerie {
