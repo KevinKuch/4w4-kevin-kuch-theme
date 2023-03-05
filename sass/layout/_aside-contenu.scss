@@ -36,10 +36,15 @@
     margin: 1rem;
     border-radius: 1rem;
     background-color: rgb(133, 190, 233);
+    transition: all 0.3s ease-in-out;
     
     a {
       color: #fff;
       text-decoration: none;
+    }
+
+    &:hover {
+      transform: scale(1.1);
     }
   }
  

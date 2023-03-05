@@ -556,10 +556,14 @@ main {
   margin: 1rem;
   border-radius: 1rem;
   background-color: rgb(133, 190, 233);
+  transition: all 0.3s ease-in-out;
 }
 .site__aside .menu-item a {
   color: #fff;
   text-decoration: none;
+}
+.site__aside .menu-item:hover {
+  transform: scale(1.1);
 }
 
 .site {
