@@ -495,10 +495,14 @@ main {
   background-color: rgb(133, 190, 233);
   padding: 1rem;
   margin: 1rem;
+  transition: all ease-in-out 0.3s;
 }
 .blocflex__article h3, .blocflex__article h5, .blocflex__article h6, .blocflex__article p {
   margin: 0;
   padding: 0;
+}
+.blocflex__article:hover {
+  transform: scale(1.1);
 }
 .blocflex__article a {
   text-decoration: none;
