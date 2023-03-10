@@ -398,6 +398,11 @@ p {
     transform: translate(0px, 0px);
   }
 }
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 main {
   padding-left: 2em;
   padding-right: 2em;
@@ -426,19 +431,15 @@ main {
   align-items: center;
 }
 
-#chkMenu:checked ~ .menu-entete-container {
-  transform: translateX(0);
-}
-
-.logomenu {
+.menu__recherche {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
 }
 @media screen and (min-width: 1000px) {
-  .logomenu {
+  .menu__recherche {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
@@ -446,8 +447,12 @@ main {
 }
 
 /* -------------------------------------------------- menu-enetete */
+#chkMenu:checked ~ .menu-entete-container {
+  transform: translateX(0);
+}
+
 .menu-entete-container {
-  transform: translateX(300px);
+  transform: translateX(110%);
   transition: transform 0.5s;
 }
 @media screen and (min-width: 800px) {
@@ -459,8 +464,8 @@ main {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  justify-content: flex-end;
   align-items: flex-end;
+  justify-content: flex-start;
 }
 @media screen and (min-width: 800px) {
   .menu-entete-container .menu {
@@ -482,6 +487,7 @@ main {
   text-decoration: none;
   padding: 20px 0;
   margin: 0 20px;
+  white-space: nowrap;
 }
 .menu-entete-container .menu .menu-item a:hover {
   border-top: 4px solid #fff;
@@ -492,6 +498,7 @@ main {
 /***************** Zone de recherche *****************/
 .recherche {
   display: flex;
+  flex-wrap: nowrap;
 }
 
 .single-page {
@@ -549,22 +556,12 @@ main {
   flex: 1 0 100%;
 }
 
-@media screen and (max-width: 768px) {
-  .menu-entete-container {
-    display: none;
-  }
-  .recherche {
-    display: none;
-  }
-  .logoMenu {
-    margin: 0 auto;
-  }
-}
+/* ------------------------------------------ Bouton burger */
 .burger {
-  width: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 25px;
 }
 @media screen and (min-width: 800px) {
   .burger {
