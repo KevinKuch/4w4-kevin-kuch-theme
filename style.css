@@ -426,6 +426,10 @@ main {
   align-items: center;
 }
 
+#chkMenu:checked ~ .logomenu {
+  transform: translateX(0);
+}
+
 .logomenu {
   display: flex;
   justify-content: flex-end;
@@ -455,7 +459,7 @@ main {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: flex-end;
 }
 @media screen and (min-width: 800px) {
@@ -556,6 +560,18 @@ main {
     margin: 0 auto;
   }
 }
+.burger {
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 800px) {
+  .burger {
+    display: none;
+  }
+}
+
 /* --------------------------------------------- variable */
 /* --------------------------------------------- layout */
 /**

@@ -17,14 +17,16 @@ if(is_front_page()){
 <body class="site <?= $nouvelle_classe ?>">
    <header class="site__header">
     <section class="site__header__logo">
+        <?php the_custom_logo(); ?>
         <div class="logomenu">
-            <?php the_custom_logo(); ?>
+            <input type="checkbox" id="chkMenu">
             <?php wp_nav_menu(array(
             "menu" => "entete",
             "container" => "nav"
             )) ?>
         </div>
         <?php  get_search_form(); ?>
+        <button class="burger" for="chkMenu"><img src="https://s2.svgbox.net/hero-solid.svg?ic=menu" alt="menu" width="32" height="32"></button>
     </section>
     <h1><a href="<?= bloginfo('url') ?>"><?= bloginfo('name') ?></a></h1>
     <h1 class="titre-web">Création d'interface et Développement Web</h1>
