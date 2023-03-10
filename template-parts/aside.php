@@ -1,7 +1,7 @@
 <aside class="site__aside">
     <h3>Menu secondaire</h3>
     <?php 
-    $ma_categorie  = "4w4";
+    $ma_categorie  = "Notes-4w4";
     if (in_category('cours')){
         $ma_categorie  = "cours";
     }
