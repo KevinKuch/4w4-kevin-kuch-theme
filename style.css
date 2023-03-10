@@ -426,7 +426,7 @@ main {
   align-items: center;
 }
 
-#chkMenu:checked ~ .logomenu {
+#chkMenu:checked ~ .menu-entete-container {
   transform: translateX(0);
 }
 
@@ -570,6 +570,10 @@ main {
   .burger {
     display: none;
   }
+}
+
+#chkMenu {
+  display: none;
 }
 
 /* --------------------------------------------- variable */

@@ -26,7 +26,7 @@ if(is_front_page()){
             )) ?>
         </div>
         <?php  get_search_form(); ?>
-        <button class="burger" for="chkMenu"><img src="https://s2.svgbox.net/hero-solid.svg?ic=menu" alt="menu" width="32" height="32"></button>
+        <label class="burger" for="chkMenu"><img src="https://s2.svgbox.net/hero-solid.svg?ic=menu" alt="menu" width="32" height="32"></label>
     </section>
     <h1><a href="<?= bloginfo('url') ?>"><?= bloginfo('name') ?></a></h1>
     <h1 class="titre-web">Création d'interface et Développement Web</h1>

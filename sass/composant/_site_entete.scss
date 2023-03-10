@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
 }
-#chkMenu:checked ~ .logomenu {
+#chkMenu:checked ~ .menu-entete-container {
   transform: translateX(0);
 }
 
