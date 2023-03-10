@@ -8,17 +8,41 @@
 
 .logomenu {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+
+  @media screen and (min-width: 1000px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+    
+  }
+
 
 /* -------------------------------------------------- menu-enetete */
 .menu-entete-container { // nav
+  transform: translateX(300px);
+  transition: transform 0.5s;
+  @media screen and (min-width: 800px) {
+    transform: translateX(0);
+  }
+    
+  
 
   .menu{ // ul
       display : flex;
+      flex-direction: column;
       list-style-type: none;
       justify-content: flex-start;
+      align-items: flex-end;
+      @media screen and (min-width: 800px) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+      }
       .menu-item { //li
           color : rgb(0, 42, 85);
           a {
@@ -41,6 +65,13 @@
           }
       }
   }
+  }
+
+
+  /***************** Zone de recherche *****************/
+  .recherche {
+    display: flex;
+
   }
 
 
