@@ -1,16 +1,46 @@
 .site__footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     color: rgb(0, 0, 0);
     padding: 3rem;
     margin-top: 2rem;
+
+    .menu-footer-container {
+        .menu {
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .menu-item {
+                list-style-type: none;
+                padding-bottom: 0.5rem;
+            }
+        }
+    }
+
+    section {
+        flex: 1 1 200px;
+        padding: 1rem;
+
+        h1 {
+            color:#fff;
+            font-family: 'Ubuntu', sans-serif;
+
+        }
+    }
+
+    .medias-sociaux {
+
+        .lien-sociaux {
+            display: flex;
+            li {
+                list-style: none;
+                padding: 1rem;
+            }
+        }
+    }
 }
 
-.site__footer section {
-    border: 1px solid #aaa;
-    border-radius: 10px;
-    flex: 1 1 200px;
-    padding: 1rem;
-    
-}

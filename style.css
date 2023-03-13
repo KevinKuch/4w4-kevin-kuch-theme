@@ -411,17 +411,33 @@ main {
 /* --------------------------------------------- composant */
 .site__footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   color: rgb(0, 0, 0);
   padding: 3rem;
   margin-top: 2rem;
 }
-
+.site__footer .menu-footer-container .menu a {
+  text-decoration: none;
+  color: #fff;
+}
+.site__footer .menu-footer-container .menu .menu-item {
+  list-style-type: none;
+  padding-bottom: 0.5rem;
+}
 .site__footer section {
-  border: 1px solid #aaa;
-  border-radius: 10px;
   flex: 1 1 200px;
+  padding: 1rem;
+}
+.site__footer section h1 {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+.site__footer .medias-sociaux .lien-sociaux {
+  display: flex;
+}
+.site__footer .medias-sociaux .lien-sociaux li {
+  list-style: none;
   padding: 1rem;
 }
 

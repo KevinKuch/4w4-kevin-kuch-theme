@@ -7,6 +7,14 @@ wp_enqueue_style(   'style-principale',  // identificateur du link css
                     array(), // les fichiers css qui dépendent de style.css
                     filemtime(get_template_directory() . '/style.css')  // version de notre style.css
 ); 
+
+wp_enqueue_style('style-ubuntu',"https://fonts.googleapis.com/css2?family=Ubuntu&display=swap",
+false);
+// changer 'style-googlefont' le nom pour ajouter autre font
+// wp_enqueue_style('style-googlefont',"https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&family=Ubuntu&display=swap",
+// false);
+
+
 }
 add_action( 'wp_enqueue_scripts', 'ajouter_styles' );
 
