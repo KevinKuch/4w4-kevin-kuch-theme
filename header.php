@@ -34,6 +34,7 @@
     </section>
     <h1><a href="<?= bloginfo('url') ?>"><?= bloginfo('name') ?></a></h1>
     <h2><?= bloginfo('description') ?></h2>
+    <h1>Création d'interface et Développement Web</h1>
    </header>
 
     <?php 
