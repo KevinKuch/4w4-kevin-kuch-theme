@@ -10,6 +10,8 @@ wp_enqueue_style(   'style-principale',  // identificateur du link css
 
 wp_enqueue_style('style-ubuntu',"https://fonts.googleapis.com/css2?family=Ubuntu&display=swap",
 false);
+wp_enqueue_style('style-oswald',"https://fonts.googleapis.com/css2?family=Oswald&display=swap",
+false);
 // changer 'style-googlefont' le nom pour ajouter autre font
 // wp_enqueue_style('style-googlefont',"https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&family=Ubuntu&display=swap",
 // false);

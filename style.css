@@ -331,6 +331,7 @@ h1 {
 
 h2 {
   font-size: clamp(0.625rem, 0.587rem + 0.7609vw, 1.5rem);
+  font-family: "Oswald", sans-serif;
 }
 
 h3 {
@@ -417,6 +418,9 @@ main {
   padding: 3rem;
   margin-top: 2rem;
 }
+.site__footer .menu-footer-container .menu {
+  margin-left: -40px;
+}
 .site__footer .menu-footer-container .menu a {
   text-decoration: none;
   color: #fff;
@@ -435,6 +439,8 @@ main {
 }
 .site__footer .medias-sociaux .lien-sociaux {
   display: flex;
+  flex-direction: row;
+  margin-left: -40px;
 }
 .site__footer .medias-sociaux .lien-sociaux li {
   list-style: none;
@@ -503,12 +509,9 @@ main {
   padding: 20px 0;
   margin: 0 20px;
   white-space: nowrap;
-  transition: 0.3s ease;
 }
 .menu-entete-container .menu .menu-item a:hover {
-  border-top: 4px solid #fff;
-  border-bottom: 4px solid #fff;
-  padding: 6px 0;
+  color: #000;
 }
 
 /***************** Zone de recherche *****************/

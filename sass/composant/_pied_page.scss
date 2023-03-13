@@ -8,7 +8,7 @@
 
     .menu-footer-container {
         .menu {
-
+            margin-left: -40px;
             a {
                 text-decoration: none;
                 color: #fff;
@@ -17,6 +17,7 @@
             .menu-item {
                 list-style-type: none;
                 padding-bottom: 0.5rem;
+                
             }
         }
     }
@@ -24,7 +25,7 @@
     section {
         flex: 1 1 200px;
         padding: 1rem;
-
+        
         h1 {
             color:#fff;
             font-family: 'Ubuntu', sans-serif;
@@ -36,6 +37,8 @@
 
         .lien-sociaux {
             display: flex;
+            flex-direction: row;
+            margin-left: -40px;
             li {
                 list-style: none;
                 padding: 1rem;
